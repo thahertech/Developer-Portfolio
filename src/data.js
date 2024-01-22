@@ -13,14 +13,15 @@ export const projects = [
     description:
       "Final Project for Meta: Front End Developer Course using a wide range of new tools!",
     image: "PortfolioDEMO.gif",
-    link: "https://github.com/thahertech",
+    link: "https://github.com/thahertech/",
   },
   {
-    title: "Stil choosing Portfolio Worthy Demo",
-    subtitle: "React",
+    title: "Auto Water",
+    subtitle: "Arduino IDE, C++",
     description:
-      "Meanwhile, why not checkout my other projects?",
-    link: "https://github.com/thahertech",
+      "A small project to water my plants automatically at home ! ",
+      image: "Auto_Water.JPG",
+    link: "https://github.com/thahertech/Auto_Watering",
   },
   {
     title: "Stil choosing Portfolio Worthy Demo",
