@@ -12,10 +12,12 @@ export default function AboutMe() {
                     {title}
                     <br className="hidden-lg:incline-block" /> {bio}
     
+    
                 </h1>
             <p className="mn-8 leading-relaxed">
                 Last year Bachelor's Degree Student studying Information & Communication Technology in Oulun Ammattikorkeakoulu. <br/> 
-                Bilingual in Finnish 🇫🇮 & English 🇬🇧.
+                Bilingual in Finnish 🇫🇮 & English 🇬🇧. <br />
+                Architecting Code, Unleashing Aesthetics: Where Innovation Meets Style.
 
             </p>
             <div className="flex mt-6 justify-center">

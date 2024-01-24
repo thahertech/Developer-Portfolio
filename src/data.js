@@ -24,11 +24,12 @@ export const projects = [
     link: "https://github.com/thahertech/Auto_Watering",
   },
   {
-    title: "Stil choosing Portfolio Worthy Demo",
-    subtitle: "React",
+    title: "Todo-List",
+    subtitle: "Javascript, React, HTML, CSS",
     description:
-      "Meanwhile, why not checkout my other projects?",
-    link: "https://github.com/thahertech",
+      "A quick & simple todo-list project ! ",
+      image: "Todo-List.png",
+    link: "https://github.com/thahertech/todolist",
   },
 ];
 
@@ -42,8 +43,8 @@ export const certificates = [
 export const skills = [
   "JavaScript",
   "React",
+  "Material UI",
+  "Node.js",
   "C++",
-  "Node",
-  "Linux",
-  "Tailwind CSS",
+  "Linux"
 ];
