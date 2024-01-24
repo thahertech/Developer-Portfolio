@@ -27,8 +27,8 @@ export const projects = [
     title: "Todo-List",
     subtitle: "Javascript, React, HTML, CSS",
     description:
-      "A quick & simple todo-list project ! ",
-      image: "Todo-List.png",
+      "A quick & simple todo-list project | Add, check completed, delete tasks! ",
+      image: "Todo-List.jpeg",
     link: "https://github.com/thahertech/todolist",
   },
 ];
