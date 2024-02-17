@@ -1,35 +1,36 @@
 export const projects = [
   {
+    title: "Little-Lemon Project",
+    subtitle: "React, Javascript, HTML, CSS, Figma",
+    description:
+    "Front-End Project for META: Front-End Certificate. Little-Lemon table booking",
+    image: "LittleLemon.gif",
+    link: "https://github.com/thahertech/little-lemon-project",
+  },
+  {
     title: "Movie Finder",
     subtitle: "Javascript",
     description:
-      "JS project made using themoviedb.org API to search for movies online.",
+    "JS project made using themoviedb.org API to search for movies online.",
     image: "MovieFinder.gif",
     link: "https://github.com/thahertech/Movie-Finder-Database",
   },
-  {
-    title: "Portfolio Project",
-    subtitle: "React, Javascript and Chakra UI",
-    description:
-      "Final Project for Meta: Front End Developer Course using a wide range of new tools!",
-    image: "PortfolioDEMO.gif",
-    link: "https://github.com/thahertech/",
-  },
+  
   {
     title: "Auto Water",
     subtitle: "Arduino IDE, C++",
     description:
-      "A small project to water my plants automatically at home ! ",
-      image: "Auto_Water.JPG",
+    "A small project to water my plants automatically at home ! ",
+    image: "Auto_Water.JPG",
     link: "https://github.com/thahertech/Auto_Watering",
   },
   {
-    title: "Todo-List",
-    subtitle: "Javascript, React, HTML, CSS",
+    title: "Lumityö-Mobile-App",
+    subtitle: "Javascript, React Native, Figma Design, ExpoGo",
     description:
-      "A quick & simple todo-list project | Add, check completed, delete tasks! ",
-      image: "Todo-List.jpeg",
-    link: "https://github.com/thahertech/todolist",
+    "This React Native project is a mobile application designed for ordering snow removal services.",
+    image: "LumiApp.gif",
+    link: "https://github.com/thahertech/lumityo-mobileapp",
   },
 ];
 
