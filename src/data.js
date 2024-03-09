@@ -36,7 +36,12 @@ export const projects = [
 
 export const certificates = [
   "Meta: Front-End Developer",
-  "Integrify: Full Stack Development"
+  "Integrify: Full Stack Development",
+  "KAMK: Practical AI",
+  "KAMK: Power Platform Functional Consultant",
+  "KAMK: Power Platform Solution Architect",
+  "KAMK: Power Platform Fundamentals",
+  "KAMK: Power Platform App Maker"
 ];
 
 
