@@ -15,7 +15,6 @@ export const projects = [
     image: "MovieFinder.gif",
     link: "https://github.com/thahertech/Movie-Finder-Database",
   },
-  
   {
     title: "Auto Water",
     subtitle: "Arduino IDE, C++",

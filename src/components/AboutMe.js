@@ -11,18 +11,17 @@ export default function AboutMe() {
                 <h1 className="title-font sm: text-4xl text-3xl mb-4 font-medium text-white text-center">
                     {title}
                     <br className="hidden-lg:incline-block" /> {bio}
-    
-    
                 </h1>
+
                 <p className="mn-8 leading-relaxed sm:text-center">
     Last year Bachelor's Degree Student studying Information & Communication Technology in Oulun Ammattikorkeakoulu. <br/> 
     Bilingual in Finnish 🇫🇮 & English 🇬🇧. <br />
     Architecting Code, Unleashing Aesthetics: Where Innovation Meets Style.
-    </p>
-
+                </p>
+            
             <div className="flex mt-6 justify-center">
             <a
-                href="#contact" 
+                href="#contact"
                 className="incline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                     Work With Me
                 </a>
@@ -33,6 +32,7 @@ export default function AboutMe() {
             </a>
           </div>
         </div>
+        
         <div className="flex mt-2 mb-10 justify-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
           <img
