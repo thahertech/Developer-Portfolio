@@ -8,18 +8,18 @@ export default function AboutMe() {
     return(
         <section id="aboutme">
             <div className="container mx-auto flex px-10 py-20 md: flex-row flex-col items-center">
-                <h1 className="title-font sm: text-4xl text-3xl mb-4 font-medium text-white">
+                <h1 className="title-font sm: text-4xl text-3xl mb-4 font-medium text-white text-center">
                     {title}
                     <br className="hidden-lg:incline-block" /> {bio}
     
     
                 </h1>
-            <p className="mn-8 leading-relaxed">
-                Last year Bachelor's Degree Student studying Information & Communication Technology in Oulun Ammattikorkeakoulu. <br/> 
-                Bilingual in Finnish 🇫🇮 & English 🇬🇧. <br />
-                Architecting Code, Unleashing Aesthetics: Where Innovation Meets Style.
+                <p className="mn-8 leading-relaxed sm:text-center">
+    Last year Bachelor's Degree Student studying Information & Communication Technology in Oulun Ammattikorkeakoulu. <br/> 
+    Bilingual in Finnish 🇫🇮 & English 🇬🇧. <br />
+    Architecting Code, Unleashing Aesthetics: Where Innovation Meets Style.
+    </p>
 
-            </p>
             <div className="flex mt-6 justify-center">
             <a
                 href="#contact" 
