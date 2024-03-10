@@ -22,17 +22,17 @@ export default function AboutMe() {
             <div className="flex mt-6 justify-center">
             <a
                 href="#contact"
-                className="incline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                className="incline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg text-center">
                     Work With Me
                 </a>
                 <a
                 href="#projects"
-                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg text-center">
               My Past Work
             </a>
           </div>
         </div>
-        
+
         <div className="flex mt-2 mb-10 justify-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
           <img
