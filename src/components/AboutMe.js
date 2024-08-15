@@ -6,23 +6,27 @@ const bio = "Discovering Details Hidden In Aesthetics."
 export default function AboutMe() {
 
     return(
-        <section id="aboutme">
-            <div className="container mx-auto flex px-10 py-20 md: flex-row flex-col items-center">
+      <section id="aboutme" className="relative">
+            <div className="absolute top-0 left-0 w-full h-full md:h-5/5 bg-no-repeat bg-cover bg-center opacity-50"
+           style={{ backgroundImage: "url('./AboutMe.jpg')" }}>
+      </div>
+            <div className="container mx-auto flex px-10 py-20 md: flex-row flex-col items-center relative z-20">
                 <h1 className="title-font sm: text-4xl text-3xl mb-4 font-medium text-white text-center">
                     {title}
-                    <br className="hidden-lg:incline-block" /> {bio}
+                  <br className="hidden-lg:incline-block" /> 
+                    {bio}
                 </h1>
 
                 <p className="mn-8 leading-relaxed sm:text-center">
-    Last year Bachelor's Degree Student studying Information & Communication Technology in Oulun Ammattikorkeakoulu. <br/> 
-    Bilingual in Finnish 🇫🇮 & English 🇬🇧. <br />
-    Architecting Code, Unleashing Aesthetics: Where Innovation Meets Style.
+    Architecting Code, Unleashing Aesthetics: Where Innovation Meets Style. <br/><br/>
+    <strong>Software Designer & Engineer</strong>
                 </p>
+          
             
             <div className="flex mt-6 justify-center">
             <a
                 href="#contact"
-                className="incline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg text-center">
+                className="incline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg text-center z-30">
                     Work With Me
                 </a>
                 <a
@@ -33,7 +37,7 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="flex mt-2 mb-10 justify-center">
+        <div className="flex mt-2 mb-10 justify-center md:mr-auto md:py-1 md:pl-4 md:border-gray-700 border-t border-gray-700 relative z-20">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
           <img
             className="object-cover object-center rounded"

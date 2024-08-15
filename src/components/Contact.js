@@ -35,7 +35,7 @@ export default function Contact() {
             className="absolute inset-0"
        
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=Meritullinraitti,+Oulu,+Finland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=Oulu,+Finland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 px-10 rounded shadow-md">
             <div className="lg:w-1/2 px-6">

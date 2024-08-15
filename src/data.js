@@ -34,6 +34,7 @@ export const projects = [
 ];
 
 export const certificates = [
+  "OAMK: Information & Communication Technology Bachelor's Degree",
   "Meta: Front-End Developer",
   "Integrify: Full Stack Development",
   "KAMK: Practical AI",
@@ -48,8 +49,9 @@ export const certificates = [
 export const skills = [
   "JavaScript",
   "React",
-  "Material UI",
+  "Wordpress",
   "Node.js",
-  "C++",
-  "Linux"
+  "React Native",
+  "PHP",
+  "MYSQL"
 ];
