@@ -20,15 +20,16 @@ export default function Navbar() {
                     <a onClick={() => scrollToSection("aboutme")} className="mr-5 hover:text-white cursor-pointer">
                         About Me
                     </a>
-                    <a onClick={() => scrollToSection("projects")} className="mr-5 hover:text-white cursor-pointer">
-                        Past Projects
-                    </a>
                     <a onClick={() => scrollToSection("skills")} className="mr-5 hover:text-white cursor-pointer">
                         Skills
                     </a>
                     <a onClick={() => scrollToSection("certificates")} className="mr-5 hover:text-white cursor-pointer">
                         Certificates
                     </a>
+                    <a onClick={() => scrollToSection("projects")} className="mr-5 hover:text-white cursor-pointer">
+                        Past Projects
+                    </a>
+
                 </nav>
                 <button
                     onClick={() => scrollToSection("contact")}
