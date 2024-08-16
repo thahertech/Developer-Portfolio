@@ -4,7 +4,15 @@ export default function Navbar() {
     const scrollToSection = (sectionId) => {
         const targetSection = document.getElementById(sectionId);
         if (targetSection) {
-            targetSection.scrollIntoView({ behavior: "smooth" });
+            //Calculate section Icon height
+            const headerOffset = document.querySelector('header').offsetHeight;
+            const elementPosition = targetSection.getBoundingClientRect().top;
+            const offsetPosition = elementPosition - headerOffset;
+            //Position view to include icon
+            window.scrollTo({
+                top: offsetPosition + window.scrollY,
+                behavior: "smooth",
+            });
         }
     };
 
