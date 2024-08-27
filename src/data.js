@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Little-Lemon Project",
-    subtitle: "React, Javascript, HTML, CSS, Figma",
+    title: "Logistics Application — Truck UP",
+    subtitle: "React, Javascript, Figma",
     description:
-    "Front-End Project for META: Front-End Certificate. Little-Lemon table booking",
-    image: "LittleLemon.gif",
-    link: "https://github.com/thahertech/little-lemon-project",
+    "Full Stack Project helping companies find deliveries for empty return trips while providing product owners cheap pricing.",
+    image: "Logistics.gif",
+    link: "https://github.com/thahertech/",
   },
   {
     title: "Movie Finder",
@@ -17,15 +17,15 @@ export const projects = [
   },
   {
     title: "Auto Water",
-    subtitle: "Arduino IDE, C++",
+    subtitle: "Arduino IDE, C++, Home Assistant, ESP Home",
     description:
-    "A small project to water my plants automatically at home ! ",
+    "Small addition to my Home Automation project. System for watering my plants at home while im travelling.",
     image: "Auto_Water.JPG",
     link: "https://github.com/thahertech/Auto_Watering",
   },
   {
-    title: "Lumityö-Mobile-App",
-    subtitle: "Javascript, React Native, Figma Design, ExpoGo",
+    title: "Snow Work App",
+    subtitle: "React Native, Javascript, Figma Design, ExpoGo, Firebase",
     description:
     "This React Native project is a mobile application designed for ordering snow removal services.",
     image: "LumiApp.gif",

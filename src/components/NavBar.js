@@ -4,11 +4,13 @@ export default function Navbar() {
     const scrollToSection = (sectionId) => {
         const targetSection = document.getElementById(sectionId);
         if (targetSection) {
-            //Calculate section Icon height
+
+            //Calculate section Icon
             const headerOffset = document.querySelector('header').offsetHeight;
             const elementPosition = targetSection.getBoundingClientRect().top;
             const offsetPosition = elementPosition - headerOffset;
-            //Position view to include icon
+            
+            //Include ICON 
             window.scrollTo({
                 top: offsetPosition + window.scrollY,
                 behavior: "smooth",
@@ -17,7 +19,7 @@ export default function Navbar() {
     };
 
     return (
-        <header className="bg-gray-800 md:sticky top-0 z-10">
+        <header className="bg-gray-800 md:sticky top-0 z-50 relative">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a className="title-font font-medium text-white mb-4 md:mb-0">
                     <a onClick={() => scrollToSection("about")} className="ml-3 text-xl cursor-pointer">
