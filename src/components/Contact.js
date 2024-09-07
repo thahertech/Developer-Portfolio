@@ -33,7 +33,6 @@ export default function Contact() {
             height="100%"
             title="map"
             className="absolute inset-0"
-       
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Oulu,+Finland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
@@ -67,10 +66,11 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+            Get In Touch
           </h2>
           <p className="leading-relaxed mb-5">
-            Any questions / suggestions or should we get straight to work?
+            If you have any questions, ideas, or just want to collaborate, feel free to reach out!
+            I'm always open to new opportunities and connections.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -112,7 +112,7 @@ export default function Contact() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Submit
+            Send Message
           </button>
         </form>
       </div>

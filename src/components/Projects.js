@@ -20,12 +20,12 @@ export default function Projects() {
             Here are some notable applications that bear testament to my skills:
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 w-full">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4"
+              className="sm:w-1/2 w-full p-4"
             >
               <div className="relative group">
                 <div className="project-image-container">
