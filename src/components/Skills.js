@@ -11,11 +11,11 @@ export default function Skills() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
+
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           In the ever-evolving landscape of web development and software engineering,
-          my skill set encompasses a diverse range of technologies to bring innovative solutions to life. 
+          my skill set encompasses a diverse range of technologies to bring innovative solutions to life.
           Here's a glimpse into my expertise:
-
 
           </p>
         </div>

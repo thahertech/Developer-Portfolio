@@ -9,8 +9,8 @@ export default function Navbar() {
             const headerOffset = document.querySelector('header').offsetHeight;
             const elementPosition = targetSection.getBoundingClientRect().top;
             const offsetPosition = elementPosition - headerOffset;
-            
-            //Include ICON 
+
+            //Include ICON
             window.scrollTo({
                 top: offsetPosition + window.scrollY,
                 behavior: "smooth",

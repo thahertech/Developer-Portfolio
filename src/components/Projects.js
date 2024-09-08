@@ -17,10 +17,9 @@ export default function Projects() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Embarking on the journey of turning ideas into tangible solutions,
             I've had the privilege of contributing to diverse projects.
-            Here are some notable applications that bear testament to my skills:
           </p>
         </div>
-        <div className="flex flex-wrap -m-4 w-full">
+        <div className="flex flex-wrap w-full">
           {projects.map((project) => (
             <a
               href={project.link}
