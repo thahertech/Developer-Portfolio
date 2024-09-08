@@ -1,10 +1,8 @@
-/* Ensure body has a perspective */
 body {
     perspective: 1000px;
     margin: 0;
 }
 
-  /* Glass effect for the AboutMe section */
   .glass-effect {
     position: absolute;
     top: 0;
@@ -17,15 +15,14 @@ body {
     backdrop-filter: blur(5px) brightness(0.9);
     box-shadow: 0 20px 32px rgba(0, 0, 0, 0.37), inset 0 1px rgba(255, 255, 255, 0.3);
     pointer-events: none;
-    z-index: 1; /* Ensure it stays behind content */
+    z-index: 1;
     min-width: 100vw;
   }
 
-  /* Clear the glass effect on hover of specific links */
   .project-image-container {
     position: relative;
     width: 100%;
-    height: 300px; /* Adjust to your desired height */
+    height: 300px; 
     overflow: hidden;
   }
 
@@ -33,7 +30,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block; /* Ensures the image fits properly */
+    display: block;
   }
 
   .project-image-container .overlay {
@@ -42,15 +39,14 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.2); /* Light, semi-transparent background */
+    background: rgba(255, 255, 255, 0.2); 
     -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px); /* Adds the frosted glass effect */
+    backdrop-filter: blur(10px);
     color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: opacity 0.3s ease;
-    opacity: 1;
     z-index: 10;
     padding: 1rem;
     border-radius: 10px; /* Rounded corners for a modern look */
@@ -59,16 +55,6 @@ body {
 
   }
 
-.overlay:hover{
-      background: rgba(255, 255, 255, 0); /* Fully clear background */
-    -webkit-backdrop-filter: blur(0);
-    backdrop-filter: none; /* Remove blur effect */
-    & .overlay-content, .overlay-content h2 {
-        background: rgba(255, 255, 255, 0); /* Fully clear background */
-        opacity: 0;
-
-    }
-  }
 
   .relative .group {
     width: 100%;
@@ -81,9 +67,7 @@ body {
     padding: 5px;
   }
 
-  .overlay-content:hover {
-    background: #00000089;
-  }
+
 
   .overlay-content h2 {
     margin-bottom: 0.5rem;
@@ -118,16 +102,16 @@ body {
   @media (max-width: 768px) {
     /* Ensure the overlay is always visible on mobile */
     .overlay {
-      opacity: 1;
+      opacity: 100%;
     }
 
     .project-image-container .overlay {
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px); /* Keep the blur effect */
-      opacity: 1;
+      opacity: 100%;
     }
 
     .overlay-content {
-      opacity: 1; /* Keep text visible on mobile */
+      opacity: 100%; /* Keep text visible on mobile */
     }
   }
