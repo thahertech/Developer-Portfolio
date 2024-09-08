@@ -1,6 +1,6 @@
 Developer-Portfolio <br/>
-Unveiling a harmonious fusion of my coding expertise and _aesthetic_ sensibilities, <br/> this developer portfolio is crafted with React and JavaScript.
-<br/> Immerse yourself in a delightful exploration of my CV.
+<br/> this developer portfolio is crafted with React and JavaScript.
+
 
 <br/> Link to my portfolio : (https://sensei-tech-developer.netlify.app/) 
 
