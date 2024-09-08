@@ -23,13 +23,14 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               href={project.link}
-              key={project.image}
+              key={project.id || project.image}
+              aria-label={`Project: ${project.title}`}
               className="sm:w-1/2 w-full p-4"
             >
               <div className="relative group">
                 <div className="project-image-container">
                   <img
-                    alt="gallery"
+                    alt={project.title}
                     src={project.image}
                     className="project-image"
                   />
