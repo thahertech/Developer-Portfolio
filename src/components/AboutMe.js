@@ -42,6 +42,24 @@ export default function AboutMe({ isLinkHovered, onLinkHover, onLinkLeave }) {
             My Past Work
           </a>
         </div>
+         <div className="text-left mt-10">
+          <a 
+            href="/Thaher_AlAmir_CV.pdf" 
+            download 
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+          >
+            <svg 
+              className="w-6 h-6 mr-2" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24" 
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4"></path>
+            </svg>
+            Download CV
+          </a>
+        </div>
       </div>
 
       <div className="flex mt-2 mb-10 justify-center md:mr-auto md:py-1 md:pl-4 md:border-gray-700 border-t border-gray-700 relative z-20">

@@ -1,5 +1,5 @@
 node_modules
-<<<<<<< HEAD
-=======
 .DS_Store
->>>>>>> master
+
+src/.DS_Store
+public/.DS_Store

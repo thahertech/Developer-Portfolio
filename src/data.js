@@ -1,11 +1,19 @@
 export const projects = [
   {
-    title: "Logistics Application — Truck UP",
-    subtitle: "React, Javascript, Figma",
+    title: "Logistics Application",
+    subtitle: "Next.js, Javascript, Wordpress, Figma",
     description:
     "Full Stack Project helping companies find deliveries for empty return trips while providing product owners cheap pricing.",
     image: "Logistics.gif",
-    link: "https://github.com/thahertech/",
+    link: "https://github.com/thahertech/logistics-platform",
+  },
+  {
+    title: "Snow Work App",
+    subtitle: "React Native, Javascript, Figma Design, ExpoGo, EmailJS",
+    description:
+    "This React Native project is a mobile application designed for ordering snow removal services.",
+    image: "LumiApp.gif",
+    link: "https://github.com/thahertech/Lumityo-tilaus",
   },
   {
     title: "Movie Finder",
@@ -22,14 +30,6 @@ export const projects = [
     "Small addition to my Home Automation project. System for watering my plants at home while im travelling.",
     image: "Auto_Water.JPG",
     link: "https://github.com/thahertech/Auto_Watering",
-  },
-  {
-    title: "Snow Work App",
-    subtitle: "React Native, Javascript, Figma Design, ExpoGo, Firebase",
-    description:
-    "This React Native project is a mobile application designed for ordering snow removal services.",
-    image: "LumiApp.gif",
-    link: "https://github.com/thahertech/lumityo-mobileapp",
   },
 ];
 
@@ -50,7 +50,7 @@ export const skills = [
   "JavaScript",
   "React",
   "Wordpress",
-  "Node.js",
+  "Next.js",
   "React Native",
   "PHP",
   "MYSQL"
