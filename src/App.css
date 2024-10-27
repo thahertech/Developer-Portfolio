@@ -1,0 +1,128 @@
+/* Ensure body has a perspective */
+body {
+    perspective: 1000px;
+    margin: 0;
+  }
+
+
+
+  /* Glass effect for the AboutMe section */
+  .glass-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0 0 15px 15px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px) brightness(0.9);
+    box-shadow: 0 20px 32px rgba(0, 0, 0, 0.37), inset 0 1px rgba(255, 255, 255, 0.3);
+    pointer-events: none;
+    z-index: 1; /* Ensure it stays behind content */
+    min-width: 100vw;
+  }
+
+  
+  
+  /* Clear the glass effect on hover of specific links */
+
+
+  .project-image-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust to your desired height */
+    overflow: hidden;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* Ensures the image fits properly */
+  }
+  
+  .project-image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2); /* Light, semi-transparent background */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); /* Adds the frosted glass effect */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    opacity: 1 !important;
+    z-index: 10;
+    padding: 1rem;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+
+  }
+
+
+  .relative .group {
+    width: 100%;
+  }
+
+  .overlay-content {
+    text-align: center;
+    background: #00000038;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .overlay-content:hover {
+    background: #00000089;
+  }
+  
+  .overlay-content h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00ff9d; /* Accent color */
+  }
+  
+  .overlay-content h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .p4{
+    width: 100%;
+  }
+
+  .project-image-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.1)
+    );
+    box-shadow: 2px 1 ;
+  }
+
+  @media (max-width: 768px) {
+    /* Ensure the overlay is always visible on mobile */
+    .overlay {
+      opacity: 1 !important;
+    }
+
+    .project-image-container .overlay {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px); /* Keep the blur effect */
+      opacity: 1 !important;
+    }
+
+    .overlay-content {
+      opacity: 1 !important; /* Keep text visible on mobile */
+    }
+  }
